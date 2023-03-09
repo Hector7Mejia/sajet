@@ -1,6 +1,6 @@
-# sajet app (sajet)
+# sajet app (frontend)
 
-sajet aircraft interior website
+An app for airplane interior services
 
 ## Install the dependencies
 ```bash

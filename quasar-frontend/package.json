@@ -1,14 +1,17 @@
 {
-  "name": "sajet",
+  "name": "frontend",
   "version": "0.0.1",
-  "description": "sajet aircraft interior website",
+  "description": "An app for airplane interior services",
   "productName": "sajet app",
   "author": "Hector Mejia <mejia7hector@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "build:pwa": "quasar build -m pwa"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
